@@ -8,6 +8,10 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
+     * id_barang (Primary Key) : Identifikasi unik untuk setiap barang.
+     * nama (VARCHAR(255)): Nama barang, mendukung teks hingga 255 karakter.
+     * harga (DECIMAL(15,2)): Harga barang, mendukung dua desimal untuk presisi mata uang.
+     * jumlah_stok (INT): Jumlah stok barang, bilangan bulat.
      */
     public function up(): void
     {
